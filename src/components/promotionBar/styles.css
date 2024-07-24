@@ -1,0 +1,16 @@
+.promotionBarDiv {
+  background-color: var(--promotionBar);
+  padding: 7px;
+  text-align: center;
+  color: white;
+  display: block;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 800px) {
+  .promotionBarDiv {
+    font-size: 15px;
+  }
+}

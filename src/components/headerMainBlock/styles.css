@@ -1,0 +1,24 @@
+.header-main-block {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .header-main-block {
+    min-height: 64px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .header-main-block {
+    max-width: 1332px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .header-main-block {
+    max-width: 1404px;
+  }
+}

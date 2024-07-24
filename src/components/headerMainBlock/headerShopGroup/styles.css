@@ -1,0 +1,7 @@
+.header-shop-group {
+  display: flex;
+  align-items: center;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  padding-right: 15px;
+}

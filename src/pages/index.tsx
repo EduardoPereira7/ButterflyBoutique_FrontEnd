@@ -1,10 +1,11 @@
+import HeaderMainBlock from "../components/headerMainBlock/index";
 import PromotionBar from "../components/promotionBar/index";
 
 function App() {
   return (
     <>
       <PromotionBar />
-      <div>Hello, World!</div>
+      <HeaderMainBlock />
     </>
   );
 }

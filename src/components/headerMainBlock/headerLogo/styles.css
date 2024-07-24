@@ -1,0 +1,30 @@
+.header-logo {
+  flex-shrink: 0;
+  position: relative;
+  z-index: 200;
+  align-items: center;
+}
+
+.logo-container {
+  display: block;
+  line-height: 0;
+  width: fit-content;
+}
+
+.logo-img {
+  max-width: 100px;
+  height: 32;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-logo {
+    display: flex;
+  }
+  .logo-container {
+    margin-top: 16px;
+  }
+  .logo-img {
+    max-width: 100px;
+    height: auto;
+  }
+}

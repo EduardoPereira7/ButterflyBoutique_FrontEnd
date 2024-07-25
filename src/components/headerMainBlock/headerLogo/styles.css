@@ -6,14 +6,20 @@
 }
 
 .logo-container {
-  display: block;
+  display: flex;
   line-height: 0;
   width: fit-content;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .logo-img {
-  max-width: 100px;
-  height: 32;
+  max-width: 50px;
+}
+
+.logo-img-name {
+  max-width: 280px;
 }
 
 @media screen and (max-width: 1200px) {

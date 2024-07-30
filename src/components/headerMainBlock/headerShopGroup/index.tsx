@@ -10,12 +10,12 @@ const HeaderShopGroup = () => {
         <img src={UserIcon} alt="user" />
       </div>
 
-      <div className="header-shop-group__bag">
-        <img src={BagIcon} alt="bag" />
-      </div>
-
       <div className="header-shop-group__hearth">
         <img src={FavoriteIcon} alt="hearth" />
+      </div>
+
+      <div className="header-shop-group__bag">
+        <img src={BagIcon} alt="bag" />
       </div>
     </div>
   );

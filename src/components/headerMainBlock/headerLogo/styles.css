@@ -12,10 +12,12 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  padding-top: 8px;
 }
 
 .logo-img {
-  max-width: 50px;
+  max-width: 66px;
+  height: 66px;
 }
 
 .logo-img-name {

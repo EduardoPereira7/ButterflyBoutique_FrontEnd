@@ -47,3 +47,7 @@ ul {
   list-style: none;
   border: 0;
 }
+
+.main-header-container {
+  padding: 0 15px;
+}

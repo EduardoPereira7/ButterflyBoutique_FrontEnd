@@ -5,7 +5,9 @@ function App() {
   return (
     <>
       <PromotionBar />
-      <HeaderMainBlock />
+      <div className="main-header-container">
+        <HeaderMainBlock />
+      </div>
     </>
   );
 }
